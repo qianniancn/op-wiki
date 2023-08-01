@@ -2,6 +2,45 @@
 
 windows 窗口相关操作
 
+## 接口目录
+
+- [EnumWindow](#enumwindow): 枚举窗口
+- [EnumWindowByProcess](#enumwindowbyprocess): 根据进程条件枚举窗口
+- [EnumProcess](#enumprocess): 根据指定进程名称枚举进程 PID
+- [ClientToScreen](#clienttoscreen): 窗口客户区坐标转换为屏幕坐标
+- [FindWindow](#findwindow): 根据窗口名称和类名寻找窗口
+- [FindWindowByProcess](#findwindowbyprocess): 根据进程名称寻找窗口
+- [FindWindowByProcessId](#findwindowbyprocessid): 根据进程 Id 寻找窗口
+- [FindWindowEx](#findwindowex): 寻找窗口
+- [GetClientRect](#getclientrect): 获取窗口客户区域矩形
+- [GetClientSize](#getclientsize): 获取窗口客户区域大小
+- [GetForegroundFocus](#getforegroundfocus): 获取具有输入焦点的窗口句柄
+- [GetForegroundWindow](#getforegroundwindow): 获取顶层活动窗口
+- [GetMousePointWindow](#getmousepointwindow): 获取鼠标指定坐标窗口句柄
+- [GetPointWindow](#getpointwindow): 获取指定坐标窗口句柄
+- [GetProcessInfo](#getprocessinfo): 获取进程信息
+- [GetSpecialWindow](#getspecialwindow): 获取特殊窗口
+- [GetWindow](#getwindow): 获取窗口句柄
+- [GetWindowClass](#getwindowclass): 获取窗口的类名
+- [GetWindowProcessId](#getwindowprocessid): 获取指定窗口所在的进程 ID
+- [GetWindowProcessPath](#getwindowprocesspath): 获取指定窗口所在的进程全路径
+- [GetWindowRect](#getwindowrect): 获取窗口矩形
+- [GetWindowState](#getwindowstate): 获取窗口的状态
+- [GetWindowTitle](#getwindowtitle): 获取窗口的标题
+- [MoveWindow](#movewindow): 移动窗口
+- [ScreenToClient](#screentoclient): 把屏幕坐标转换为窗口坐标
+- [SendPaste](#sendpaste): 向指定窗口发送粘贴命令
+- [SetClientSize](#setclientsize): 设置窗口客户区域大小
+- [SetWindowState](#setwindowstate): 设置窗口的状态
+- [SetWindowSize](#setwindowsize): 设置窗口的大小
+- [SetWindowText](#setwindowtext): 设置窗口的标题
+- [SetWindowTransparent](#setwindowtransparent): 设置窗口的透明度
+- [SendString](#sendstring): 向指定窗口发送文本数据
+- [SendStringIme](#sendstringime): 向指定窗口发送文本数据
+- [RunApp](#runapp): 运行可执行文
+- [WinExec](#winexec): 运行可执行文件
+- [GetCmdStr](#getcmdstr): 运行命令行
+
 ## 接口方法
 
 ### EnumWindow

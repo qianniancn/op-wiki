@@ -2,43 +2,6 @@
 
 op.opsoft
 
-## 注册
-
-把 Op 注册到系统
-
-1. 手动注册
-2. 使用免注册工具 tool.dll 或 tools_64.dll
-
-### 免注册
-
-在 tool.dll 或者 tools_64.dll 中有 2 函数
-
-`setupA`: A 表示 ANSI 字符集,使用 ANSI 字符编码
-
-`setupW`: W 表示宽字符集,使用 Unicode 字符编码
-
-| 参数 | 类型   | 描述                 |
-| ---- | ------ | -------------------- |
-| path | string | 指定 op.dll 的路径。 |
-
-**返回值**
-
-类型：`int`
-
-- 0：表示操作失败。
-- 1：表示操作成功。
-
-**示例**
-
-```c
-int result = setupW(L"./op_x64.dll");
-if (result == 0) {
-    printf("加载 op_x64 文件失败！");
-} else {
-    printf("加载 op_x64文件成功！");
-}
-```
-
 ## 目录
 
 - [Ver](#ver): 插件版本号
