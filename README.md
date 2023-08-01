@@ -5,6 +5,7 @@ https://github.com/WallBreaker2/op
 ## 文档目录
 
 - [Quickstart](/docs/quickstart.md): 快速入门
+- [install](/docs/install.md): 插件注册
 - [Base](/docs/base.md)：基本设置、插件注册
 - [Window](/docs/window.md) ：窗口查询、遍历、发送字符等窗口操作
 - [Moose](/docs/mouse.md)：鼠标操作
