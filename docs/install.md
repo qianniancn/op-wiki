@@ -23,9 +23,9 @@ regsvr32 op_x86.dll
 
 在插件目录中找到 tool.dll 和 tools_64.dll 文件, 此文件导出 2 函数
 
-`setupA`: A 表示 ANSI 字符集,使用 ANSI 字符编码
+`setupA(path)`: A 表示 ANSI 字符集,使用 ANSI 字符编码
 
-`setupW`: W 表示宽字符集,使用 Unicode 字符编码
+`setupW(path)`: W 表示宽字符集,使用 Unicode 字符编码
 
 | 参数 | 类型   | 描述                 |
 | ---- | ------ | -------------------- |
