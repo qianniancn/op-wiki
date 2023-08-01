@@ -4,13 +4,13 @@
 
 ## 接口目录
 
-- [SetOcrEngine](#setocrengine): 设置 OCR 引擎
+- [SetOcrEngine](#setocrengine): 设置 OCR 引擎 **未导出 COM**
 - [SetDict](#setdict): 设置字库
 - [SetMemDict](#setmemdict): 设置内存字库
 - [UseDict](#usedict): 选择字库
 - [Ocr](#ocr): 文字识别
-- [OcrEx](#ocrex): 文字识
-- [OcrAuto](#ocrauto): 文字识别
+- [OcrEx](#ocrex): 文字识别返回坐标
+- [OcrAuto](#ocrauto): 文字识别自动二值化
 - [OcrFromFile](#ocrfromfile): 从文件识别文字
 - [OcrAutoFromFile](#ocrautofromfile): 从文件识别文字
 - [FindStr](#findstr): 寻找文字

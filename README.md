@@ -12,6 +12,8 @@ https://github.com/WallBreaker2/op
 - [keypad](/docs/keypad.md)：键盘按键操作
 - [Ocr](/docs/ocr.md)：文字识别
 - [Image Proc](/docs/ImageProc.md): 图片处理，找图、找色
+- [Algorithm](/docs/algorithm.md): 算法
+- [System](/docs/system.md)：系统命令行
 
 ## Demo
 
