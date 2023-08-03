@@ -46,8 +46,8 @@ long Capture(x1, y1, x2, y2, file)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -74,8 +74,8 @@ long CmpColor(x,y,color,sim)
 
 类型：`int`
 
-- 0：颜色匹配
-- 1：颜色不匹配
+- 0：颜色不匹配
+- 1：颜色匹配
 
 **示例**
 
@@ -110,8 +110,8 @@ long FindColor(x1, y1, x2, y2, color, sim, dir,intX,intY)
 
 类型：`int`
 
-- 0：找到
-- 1：没找到
+- 0：未找到
+- 1：成功找到
 
 **示例**
 
@@ -184,8 +184,8 @@ long FindMultiColor(x1, y1, x2, y2,first_color,offset_color,sim, dir,intX,intY)
 
 类型：`int`
 
-- 0：找到
-- 1：没找到
+- 0：未找到
+- 1：成功找到
 
 **示例**
 
@@ -510,8 +510,8 @@ long SetDisplayInput(mode)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -551,8 +551,8 @@ long LoadPic(pic_name)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -579,8 +579,8 @@ long FreePic(pic_name)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -607,8 +607,8 @@ long LoadMemPic(file_name, data, size)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -666,8 +666,8 @@ long GetScreenDataBmp(x1,y1,x2,y2,data,size)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -698,8 +698,8 @@ long GetScreenDataBmp(x1,y1,x2,y2,data,size)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -726,8 +726,8 @@ void GetScreenFrameInfo(long* frame_id, long* time);
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
