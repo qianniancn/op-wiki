@@ -62,8 +62,8 @@ long BindWindow(hwnd,display,mouse,keypad,mode)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -87,8 +87,8 @@ long UnBindWindow()
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 

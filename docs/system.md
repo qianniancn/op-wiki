@@ -34,8 +34,8 @@ long RunApp(app_path,mode)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -67,8 +67,8 @@ long WinExec(cmdline, cmdshow)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 

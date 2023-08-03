@@ -37,8 +37,8 @@ long SetOcrEngine(path_of_engine,dll_name,argv)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -61,8 +61,8 @@ long SetDict(index,file)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -90,8 +90,8 @@ void SetMemDict(long idx, const wchar_t* data, long size, long* ret);
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 
@@ -113,8 +113,8 @@ long UseDict(index)
 
 类型：`int`
 
-- 0：成功
-- 1：失败
+- 0：失败
+- 1：成功
 
 **示例**
 

@@ -160,8 +160,8 @@ long ClientToScreen(hwnd,x,y)
 
 类型：`int`
 
-- 0：表示操作成功。
-- 1：表示操作失败。
+- 0：表示操作失败。
+- 1：表示操作成功。
 
 **示例**
 
@@ -294,8 +294,8 @@ long GetClientRect(hwnd,x1,y1,x2,y2)
 
 类型：`int`
 
-- 0:成功
-- 1:失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -321,8 +321,8 @@ long GetClientSize(hwnd,width,width)
 
 类型：`int`
 
-- 0:成功
-- 1:失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -607,8 +607,8 @@ long GetWindowRect(hwnd,x1,y1,x2,y2)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -700,8 +700,8 @@ long MoveWindow(hwnd,x,y)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -727,8 +727,8 @@ long ScreenToClient(hwnd,x,y)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -757,8 +757,8 @@ long SetClientSize(hwnd,width,height)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -805,8 +805,8 @@ long SetWindowState(hwnd,flag)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -832,8 +832,8 @@ long SetWindowSize(hwnd,width,height)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -858,8 +858,8 @@ long SetWindowText(hwnd,title)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -884,8 +884,8 @@ long SetWindowTransparent(hwnd,trans)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -910,8 +910,8 @@ long SendString(hwnd,str)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
@@ -936,8 +936,8 @@ long SendStringIme(hwnd,str)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 

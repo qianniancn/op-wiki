@@ -28,8 +28,8 @@ long WriteData(hwnd,address,data,size)
 
 类型：`int`
 
-- 0: 成功
-- 1: 失败
+- 0: 失败
+- 1: 成功
 
 **示例**
 
